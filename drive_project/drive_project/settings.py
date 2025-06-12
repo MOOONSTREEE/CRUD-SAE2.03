@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-19m&)0yg#%02#%v1(w8o37j$ov$c3_uv_w6oe7g5f$irpbyfhs
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'driveDB',
         'USER': 'driveuser',
         'PASSWORD': 'root',
-        'HOST': '10.0.2.15',
+        'HOST': '192.168.100.11',
         'PORT': '3306',
     }
 }
